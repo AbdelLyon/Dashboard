@@ -1,0 +1,19 @@
+main{
+   background-color: var(--bg-light);
+   display: flex;
+   flex-wrap: wrap;
+   flex: 1;
+   .group-chart{
+      display: flex;
+      .card{
+         padding: 20px;
+         background-color: #fff;
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin: 20px;
+         box-shadow: var(--shadow);
+         width: 50%;
+      }
+   }
+}

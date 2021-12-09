@@ -1,0 +1,15 @@
+.login{
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   form{
+      box-shadow: var(--shadow);
+      border-radius: 5px;
+      background-color: #fff;
+      padding: 100px;
+      width: 500px;
+   }
+}

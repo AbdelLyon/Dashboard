@@ -1,0 +1,37 @@
+aside{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   height: 100vh;
+   width: 300px;
+   background-color: var(--bg-dark);
+
+   .date-picker{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 80%;
+      margin: 50px auto 20px;
+      color: #fff;
+      .form-group{
+         label{
+            text-align: start;
+            margin-bottom: 10px;
+         }
+         input{
+            border:none;
+            font-size: 13px;
+            color: var(--text-dark);
+            font-style: italic;
+  
+         }
+      }
+
+      .iconPower{
+         margin-right: 5px;
+         color: rgb(10, 182, 10);
+      }
+   }
+}
+

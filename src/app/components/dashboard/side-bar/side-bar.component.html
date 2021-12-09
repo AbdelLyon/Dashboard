@@ -1,0 +1,26 @@
+<aside *ngIf="display">
+   <div class="user">
+      <img width="100px" src="https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659651_960_720.png" alt="">
+      <div class="title">
+         <p>Tableau de bord</p>
+      </div>
+   </div>
+   <div class="date-picker">
+      <form>
+         <div class="form-group">
+            <label for="">Date de début</label>
+            <input type="date" name="date" id="date">
+         </div>
+         <div class="form-group">
+            <label for="">Date de fin</label>
+            <input type="date" name="date" id="date">
+         </div>
+         <div class="btn-container">
+            <button class="btn btn-outline-primary">Valider</button>
+         </div>
+      </form>
+      <div>
+         <fa-icon [icon]="faPowerOff" class='icon iconPower'></fa-icon><span>Déconnexion</span>
+      </div>
+   </div>
+</aside>

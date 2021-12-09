@@ -1,0 +1,9 @@
+<nav>
+   <fa-icon [icon]="faBars" class='icon' (click)="displaySideBar()"></fa-icon>
+   <div class="container-signOut">
+      <fa-icon *ngIf="!display" [icon]="faSignOutAlt" class='icon'></fa-icon>
+      <div class="title" *ngIf="!display">
+         <p>Tableau de bord</p>
+      </div>
+   </div>
+</nav>

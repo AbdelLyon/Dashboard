@@ -1,0 +1,15 @@
+nav{
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left:  20px;
+   box-shadow: var(--shadow);
+   .container-signOut{
+      display: flex;   
+      align-items: center;   
+      .icon{
+         margin-right: 20px;
+      }
+   }
+}

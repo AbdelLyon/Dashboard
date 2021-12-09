@@ -1,0 +1,7 @@
+<div class="container">
+   <app-side-bar [display]="display"></app-side-bar>
+   <div class="dashboard-content">
+      <app-nav-bar [display]="display" (eventEmitter)="onActionEvent()"></app-nav-bar>
+      <app-main></app-main>
+   </div>
+</div>
